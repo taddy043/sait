@@ -5,6 +5,37 @@ body {
 img{
 	max-width: 100%;
 }
+#sidebar{
+	font-size: 24px;
+	height: 460px; /* Высота */
+	width: 500px; /* Ширина */
+
+	float: left; /* Левое обтекание */
+
+}
+#content {
+	font-size: 24px;
+	height: 460px; /* Высота */
+    width: 500px; /* Ширина */
+
+
+}
+.draggabletr {
+	cursor: pointer;
+	position: absolute;
+	top: 220px;
+	
+	z-index :100;
+  }
+
+  .draggableb {
+	cursor: pointer;
+	position: absolute;
+	top: 220px;
+	left: 50px;
+	z-index :1000	;
+  }
+
 .box{
 	height: 60px;
 	background-color: #000;
@@ -51,6 +82,13 @@ font-weight: 400;
 	border: 3px solid #1E90FF;
 	color:#1E90FF;
 }
+  .button:hover {background-color: rgb(29, 136, 223)}
+  
+  .button:active {
+	background-color:rgb(92, 148, 197);
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
 
 .features{
 	background-color:#f2f2f2;

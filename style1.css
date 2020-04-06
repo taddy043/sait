@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url('img/back.jpg') no-repeat;
+	font-family: Impact;
+}
+
+#header {
+height: 180px;	
+background: url('img/header.png') no-repeat;
+}
+
+#sidebar{
+	font-size: 24px;
+	height: 460px; /* Высота */
+	width: 500px; /* Ширина */
+	margin-left: 300px; /* Наружные отступы */
+	float: left; /* Левое обтекание */
+	border-style: solid;
+}
+
+#content {
+	font-size: 24px;
+	height: 460px; /* Высота */
+    width: 500px; /* Ширина */
+	margin-left: 820px; /* Наружные отступы */
+	border-style: solid;
+}
+
+.draggabletr {
+	cursor: pointer;
+	position: absolute;
+	top: 220px;
+	left: 400px;
+	z-index :100;
+  }
+
+  .draggableb {
+	cursor: pointer;
+	position: absolute;
+	top: 220px;
+	left: 400px;
+	z-index :1000	;
+  }
+
+  .button {
+	font-family: Impact;
+	display: inline-block;
+	position: relative;
+	padding: 10px 25px;
+	top: 10px;
+	margin-left: 150px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: rgb(92, 148, 197);
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: rgb(29, 136, 223)}
+  
+  .button:active {
+	background-color:rgb(92, 148, 197);
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
+  
+
+#content p {
+	cursor: cell;
+	top: 10px;
+	margin-left: 125px;
+}
+
+#sidebar p {
+	margin: 20px;
+	}
+
+#footer p {
+	font-size: 18px;
+		margin: 0px 0px 10px 20px;
+		text-align: center;
+		}
+
+#footer {
+height: 180px;
+width: 100; /* Ширина */
+background: url('img/footer.png') no-repeat;
+display: flex;
+align-items: flex-end;
+}
